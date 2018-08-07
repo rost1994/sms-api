@@ -1,0 +1,29 @@
+{
+    "name": "rost1994/sms-api",
+    "type": "project",
+    "description": "REST API for SMS sending via MessageBird REST API",
+    "autoload": {
+        "psr-4": {
+            "Api\\Sms\\":"src"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:messagebird/php-rest-api.git"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "messagebird/php-rest-api": "^1.10",
+        "mongodb/mongodb": "^1.4"
+    },
+    "require-dev": {
+    },
+    "authors": [
+        {
+            "name": "Rostyslav Proskuriakov",
+            "email": "proskuryakov.r@gmail.com"
+        }
+    ]
+}
